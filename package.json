@@ -1,14 +1,14 @@
 {
-  "name": "@nw3c/test",
+  "name": "viem-tsc-error",
   "version": "0.1.0",
-  "description": "Web3 enabled react components made for nextjs and chakra ui",
+  "description": "Error with viem when running tsc",
   "main": "src/index.ts",
   "type": "module",
   "files": [
     "dist"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "tsc",
     "build": "tsc"
   },
   "author": "Peersky",
@@ -22,8 +22,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/peersky/web3-ui.git",
-    "directory": "packages/components"
+    "url": "https://github.com/peersky/viem-tsc-error.git",
+    "directory": "."
   },
-  "homepage": "https://github.com/peersky/web3-ui.git/tree/main/packages/components#readme"
+  "homepage": "https://github.com/wagmi-dev/viem/issues/1134"
 }
