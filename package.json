@@ -1,0 +1,29 @@
+{
+  "name": "@nw3c/test",
+  "version": "0.1.0",
+  "description": "Web3 enabled react components made for nextjs and chakra ui",
+  "main": "src/index.ts",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "author": "Peersky",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "viem": "^1.9.5",
+    "wagmi": "^1.3.11"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/peersky/web3-ui.git",
+    "directory": "packages/components"
+  },
+  "homepage": "https://github.com/peersky/web3-ui.git/tree/main/packages/components#readme"
+}
